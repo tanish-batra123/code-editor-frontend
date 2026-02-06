@@ -9,5 +9,5 @@ export const initSocket = () => {
     withCredentials: true,
   };
 
-  return io("http://localhost:3000", options);
+  return io("https://code-editor-backend-2-weqd.onrender.com", options);
 };
